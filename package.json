@@ -1,0 +1,44 @@
+{
+  "bugs": {
+    "url": "https://github.com/Marcotss/parcel-transformer-handlebars-json/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "@parcel/plugin": "^2.6.2",
+    "glob": "^8.0.3",
+    "handlebars": "^4.7.7",
+    "handlebars-helpers": "^0.10.0",
+    "handlebars-layouts": "^3.1.4",
+    "handlebars-wax": "^6.1.0"
+  },
+  "deprecated": false,
+  "description": "Handlebars Tranformer Plugin for Parcel JSON",
+  "devDependencies": {
+    "@parcel/core": "^2.6.2",
+    "@types/glob": "^7.2.0",
+    "@types/node": "^18.6.2",
+    "@typescript-eslint/eslint-plugin": "^5.31.0",
+    "@typescript-eslint/parser": "^5.31.0",
+    "eslint": "^8.20.0",
+    "prettier": "^2.7.1",
+    "typescript": "^4.7.4"
+  },
+  "engines": {
+    "node": ">= 12.0.0",
+    "parcel": "^2.6.2"
+  },
+  "homepage": "",
+  "license": "MIT",
+  "main": "lib/HandlebarsTransformer.js",
+  "name": "@marcotss/parcel-transformer-handlebars-json",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Marcotss/parcel-transformer-handlebars-json.git"
+  },
+  "scripts": {
+    "build": "npx tsc",
+    "start": "npx tsc --watch"
+  },
+  "version": "1.0.3"
+}
